@@ -1,0 +1,58 @@
+[
+  {
+    "mode": "redesign",
+    "depth": "full",
+    "scope": "site",
+    "theme": "brand",
+    "shape": "Product workbench",
+    "hero": "Stage",
+    "nav": "edge-aligned destinations with outlined deployment action",
+    "footer": "mast",
+    "signature": "actual client pipeline with focused crop",
+    "imagery": "supplied logo, original generated founder photo, real sample app captures",
+    "photos": [],
+    "sections": [
+      "hero",
+      "system rows and photograph",
+      "workspace showcase",
+      "specialist index",
+      "human review band",
+      "pricing rows",
+      "FAQ",
+      "deployment form",
+      "footer"
+    ],
+    "axes": [
+      "cream paper",
+      "Georgia display",
+      "warm gold signal"
+    ],
+    "fingerprint": [
+      "product",
+      "stage",
+      "edge",
+      "mast",
+      "index",
+      "rows"
+    ],
+    "waived": [],
+    "prompt": "Upgrade existing ClientFlow AI using Hallmark",
+    "checks": {
+      "landingStaticFloor": 0,
+      "appStaticFloor": 0,
+      "openReflex": 0,
+      "linksKept": "10/10",
+      "fieldsKept": "7/7",
+      "tests": 9,
+      "renderRunner": "unavailable",
+      "browser": "desktop and paired 375px views plus system/pricing sections",
+      "review": "independent, 1 finding resolved"
+    },
+    "limits": [
+      "Full-page rhythm",
+      "all mobile sections",
+      "exact 1280/1440/1920 hero folds",
+      "Google Cloud and live integrations unchanged"
+    ]
+  }
+]

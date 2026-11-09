@@ -1,0 +1,24 @@
+{
+  "scanned": "2026-11-08",
+  "findings": {
+    "fonts": "Georgia display and Arial body, public/styles.css:1",
+    "palette": "Navy #0a1628, warm gold #d4b264, cream #f8f6f0, public/styles.css:1",
+    "framework": "Native HTML/JS, Node server and hosted Worker, package.json:1",
+    "material": "Supplied logo, generated founder photo, running sample app"
+  },
+  "preserve": [
+    "logo",
+    "palette",
+    "pricing",
+    "links",
+    "form fields",
+    "API",
+    "workspace data model"
+  ],
+  "introduce": [
+    "Shared role tokens",
+    "Product-led composition",
+    "Larger operational type",
+    "Accessible control states"
+  ]
+}

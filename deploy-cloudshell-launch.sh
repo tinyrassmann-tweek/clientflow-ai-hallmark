@@ -9,13 +9,13 @@ for tool in gcloud git unzip curl node npm; do
   command -v "$tool" >/dev/null 2>&1 || fail "Missing $tool in Cloud Shell."
 done
 
-CF_PROJECT="${CF_PROJECT:-}"
+CF_PROJECT="${CF_PROJECT:-clientflow-ai-v5}"
 CF_OWNER_EMAIL="${CF_OWNER_EMAIL:-}"
 CF_FIREBASE_API_KEY="${CF_FIREBASE_API_KEY:-}"
 CF_REGION="${CF_REGION:-us-east1}"
 CF_SERVICE_NAME="${CF_SERVICE_NAME:-}"
 
-[ -n "$CF_PROJECT" ] || read -r -p "Existing Google Cloud project ID: " CF_PROJECT
+[ "$CF_PROJECT" = "clientflow-ai-v5" ] || fail "This launch is locked to project clientflow-ai-v5."
 [ -n "$CF_OWNER_EMAIL" ] || read -r -p "Verified Firebase owner email: " CF_OWNER_EMAIL
 if [ -z "$CF_FIREBASE_API_KEY" ]; then
   read -r -s -p "Firebase web API key (not an admin key): " CF_FIREBASE_API_KEY
